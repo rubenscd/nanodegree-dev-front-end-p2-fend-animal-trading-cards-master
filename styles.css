@@ -1,33 +1,33 @@
 /* add your CSS here */
-#animal-card {
+.animal-card {
 	width: 300px;
 	margin: 1em;
 	padding: 1em;
 	font-family: Georgia, 'Times New Roman', serif;
 	box-shadow: 10px 10px 0 0 rgba(0,0,0,0.20);
 }
-	.animal-card-title {
-		margin: 0.5em 0;
-		font-size: 2em;
-	}
-	.animal-card-image {
-		width: 300px;
-		margin: 1em 0;
-	}
-#animal-card-resume {
+.animal-card-title {
+	margin: 0.5em 0;
+	font-size: 2em;
+}
+.animal-card-image {
+	width: 300px;
+	margin: 1em 0;
+}
+.animal-card-resume {
 	padding: 1em;
 }
-	.animal-card--border {
-		border: 1px solid #ccc;
-		border-radius: 4px;
-	}
-	.animal-card-resume--funfact {
-		font-style: italic;
-	}
-#animal-card--collection {
+.animal-card-resume--funfact {
+	font-style: italic;
+}
+.animal-card-collection {
 	list-style: none;
 	padding: 0;
 }
-	.animal-card--collection-item span {
-		font-weight: bold;
-	}
+.animal-card-collection--item span {
+	font-weight: bold;
+}
+.animal-card--border {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
